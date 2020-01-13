@@ -1,0 +1,23 @@
+.list-car-pagination {
+  text-align: center;
+  font-size: 12px;
+}
+.list-car-pagination.loading {
+  visibility: hidden;
+}
+.list-car-pagination div {
+  max-width: 400px;
+  margin: 24px auto;
+}
+.list-car-pagination .default-link {
+  margin: 8px;
+}
+.link-group-pagination {
+  list-style: none;
+}
+.link-group-pagination:first-child {
+  float: left;
+}
+.link-group-pagination:last-child {
+  float: right;
+}

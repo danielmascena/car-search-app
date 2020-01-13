@@ -1,0 +1,70 @@
+.car-table-container {
+  /*fallback for older browsers that don't support flexbox */
+  overflow: auto;
+  padding-left: 24px;
+}
+.row-header {
+  display: flex;
+  justify-content: space-between;
+}
+/*fallback for older browsers that don't support flexbox */
+.row-header:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+/*fallback for older browsers that don't support flexbox */
+.car-table-header {
+  display: inline-block;
+  vertical-align: middle;
+}
+.car-table-header:first-child {
+  flex-grow: 1;
+}
+.car-table-header:last-child {
+  /*fallback for older browsers that don't support flexbox */
+  max-width: 250px;
+  float: right;
+
+  flex-basis: 250px;
+}
+.car-table-heading {
+  margin-top: 0;
+}
+.car-table-heading,
+.car-showing-results {
+  font-size: 18px;
+}
+.cars-list {
+  list-style: none;
+  padding-left: 0;
+}
+.list-car-item {
+  border: 2px solid #ededed;
+  margin: 12px 0;
+  font-size: 12px;
+  padding: 12px;
+}
+.list-car-item .car-container {
+  display: flex;
+}
+.list-car-item .car-pic {
+  float: left;
+  width: 80px;
+  height: 70px;
+  margin: 0 24px 0 0;
+}
+.list-car-item .car-content {
+  display: inline-block;
+  flex-grow: 1;
+}
+.list-car-item .car-heading {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.list-car-item .car-details {
+  font-size: inherit;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

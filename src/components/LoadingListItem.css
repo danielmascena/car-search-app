@@ -1,0 +1,15 @@
+svg {
+height: 50px;
+}
+rect {
+  animation: loading 1.2s ease-out infinite;
+}
+
+@keyframes loading {
+  from {
+    fill: #ededed;
+  }
+  to {
+    fill: #cccccc;
+  }
+}

@@ -1,0 +1,26 @@
+.main-header {
+  height: 80px;
+  border-bottom: solid #eeddee 1px;
+  padding: 24px;
+  /*fallback for older browsers that don't support flexbox */
+  display: table;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-link,
+.main-navbar {
+  /*fallback for older browsers that don't support flexbox */
+  vertical-align: middle;
+  display: table-cell;
+}
+#logo-brand {
+  width: 150px;
+}
+.main-navbar a {
+  text-decoration: none;
+  margin: 12px;
+  color: var(--dark-grey, #4a4a4a);
+}

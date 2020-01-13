@@ -1,0 +1,30 @@
+.show-container {
+  max-width: 800px;
+  margin: 200px auto;
+}
+.show-container .car-container {
+  vertical-align: middle;
+  width: 55%;
+  display: inline-block;
+}
+.show-container .car-pic {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  height: 200px;
+  margin-top: -224px;
+}
+
+.save-widget {
+  border: 2px solid #ededed;
+  width: 35%;
+  padding: 24px;
+  display: inline-block;
+  margin-left: 10%;
+}
+.save-widget:after {
+  content: '';
+  clear: both;
+  display: table;
+}
